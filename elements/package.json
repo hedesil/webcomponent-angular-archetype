@@ -1,0 +1,6 @@
+{
+  "name": "<compName>",
+  "version": "0.0.1",
+  "main": "./bundle.js",
+  "private": true
+}
