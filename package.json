@@ -1,5 +1,6 @@
 {
   "name": "<compName>",
+  "descripton": "<componentDescription>",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
