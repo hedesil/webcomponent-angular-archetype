@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { <shortenedNameComp> } from './<shortenedName>.component';
 
-describe('<ShortenedNameComp>', () => {
+describe('<shortenedNameComp>', () => {
   let component: <shortenedNameComp>;
   let fixture: ComponentFixture<<shortenedNameComp>>;
 

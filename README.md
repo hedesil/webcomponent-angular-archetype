@@ -1,8 +1,8 @@
-# <shortenedName>
+# <compName>
 
 # Description
 
 <componentDescription>
 
-## ¿A que mola?
-Mola mogollón.
+## Looks good, right?
+Yeah!
