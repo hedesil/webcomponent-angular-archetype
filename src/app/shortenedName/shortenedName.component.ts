@@ -7,7 +7,7 @@ import {Component, Input, OnInit, ViewEncapsulation} from '@angular/core';
   encapsulation: ViewEncapsulation.Emulated
 })
 
-export class <shortenedNameUpper> implements OnInit {
+export class <shortenedNameComp> implements OnInit {
   @Input() public name: string;
 
   constructor() {

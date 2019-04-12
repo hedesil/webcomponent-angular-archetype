@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { <shortenedNameUpper> } from './<shortenedName>.component';
+import { <shortenedNameComp> } from './<shortenedName>.component';
 
-describe('ShortenedNameComponent', () => {
-  let component: <shortenedNameUpper>;
-  let fixture: ComponentFixture<<shortenedNameUpper>>;
+describe('<ShortenedNameComp>', () => {
+  let component: <shortenedNameComp>;
+  let fixture: ComponentFixture<<shortenedNameComp>>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ <shortenedNameUpper> ]
+      declarations: [ <shortenedNameComp> ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(<shortenedNameUpper>);
+    fixture = TestBed.createComponent(<shortenedNameComp>);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

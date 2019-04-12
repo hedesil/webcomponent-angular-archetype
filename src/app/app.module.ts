@@ -3,7 +3,7 @@ import {createCustomElement} from '@angular/elements';
 import {BrowserModule} from '@angular/platform-browser';
 import {CommonModule} from '@angular/common';
 import {HttpClientModule} from '@angular/common/http';
-import {<shortenedNameUpper>} from './<shortenedNameUpper>/<shortenedName>.component';
+import {<shortenedNameComp>} from './<shortenedName>/<shortenedName>.component';
 
 @NgModule({
   imports: [
@@ -11,8 +11,8 @@ import {<shortenedNameUpper>} from './<shortenedNameUpper>/<shortenedName>.compo
     CommonModule,
     HttpClientModule
   ],
-  declarations: [<shortenedNameUpper>],
-  entryComponents: [<shortenedNameUpper>],
+  declarations: [<shortenedNameComp>],
+  entryComponents: [<shortenedNameComp>],
 })
 
 export class AppModule {
@@ -20,7 +20,7 @@ export class AppModule {
 
   ngDoBootstrap() {
     // Se usa el metodo createCustomElement de Angular para crear un wc adecuado al estandar
-    const customElement = createCustomElement(<shortenedNameUpper>, {injector: this.injector});
+    const customElement = createCustomElement(<shortenedNameComp>, {injector: this.injector});
     customElements.define('<compName>', customElement);
   }
 }
