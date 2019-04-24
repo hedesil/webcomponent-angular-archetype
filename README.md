@@ -1,6 +1,6 @@
 # <compName>
 
-# Description
+## Description
 
 <componentDescription>
 
