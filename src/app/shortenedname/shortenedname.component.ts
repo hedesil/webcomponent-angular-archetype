@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   // selector: 'app-shortenedname',
@@ -6,6 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./shortenedname.component.css']
 })
 export class ShortenednameComponent implements OnInit {
+  @Input() public name: string;
 
   constructor() {
   }
