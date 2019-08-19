@@ -1,17 +1,19 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
-  // selector: 'app-shortenedname',
-  templateUrl: './shortenedname.component.html',
-  styleUrls: ['./shortenedname.component.css']
+  templateUrl: './<shortenedName>.component.html',
+  styleUrls: ['./<shortenedName>.component.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
-export class ShortenednameComponent implements OnInit {
-  @Input() public name: string;
+
+export class <shortenedNameComp> implements OnInit {
+@Input() public name: string;
 
   constructor() {
   }
 
   ngOnInit() {
+
   }
 
 }
